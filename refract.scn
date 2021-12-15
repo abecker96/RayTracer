@@ -1,0 +1,86 @@
+view 2000 0.5
+
+background 1.0 0.0 0.0
+light 1.0 1.0 1.0  2.0 2.0 30.0
+light 1.0 1.0 1.0 -2.0 2.0 30.0
+light 1.0 1.0 1.0  0 0 1
+
+group
+move 0.0 0.0 -100.0
+scale 100.0 100.0 0.5
+material 0.18 0.18 0.18 0.0 0.0 0.0 15
+sphere
+groupend
+
+group
+move -10.0 0.0 0
+scale 0.5 100.0 100
+material 0.18 0.18 0.18 0.0 0.0 0.0 15
+sphere
+groupend
+
+group
+move 0 10 0
+scale 100 0.5 100
+material 0.18 0.18 0.18 0.0 0.0 0.0 15
+sphere
+groupend
+
+group
+move 0 -10 0
+scale 100 0.5 100
+material 0.18 0.18 0.18 0.0 0.0 0.0 15
+sphere
+groupend
+
+group
+move 10.0 0.0 0
+scale 0.5 100.0 100
+material 0.18 0.18 0.18 0.0 0.0 0.0 15
+sphere
+groupend
+
+
+group
+move 0 0 -6
+scale 1.5 1.5 1.5
+material 0.0 0.0 0.0 0.0 0.0 0.0 100
+refraction 0.8 0.8 0.8 1.5
+sphere
+groupend
+
+group
+move 0 0 -18
+
+group
+move -2 2 0
+scale 2 2 2
+#refraction 0.1 0.1 0.1 1.0
+material 0.5 0.0 0.5 0.5 0.5 0.5 100
+sphere
+groupend
+
+group
+move 2 2 0
+scale 2 2 2
+#refraction 0.1 0.1 0.1 1.0
+material 0.5 0.5 0.0 0.5 0.5 0.5 100
+sphere
+groupend
+
+group
+move 2 -2 0
+scale 2 2 2
+#refraction 0.1 0.1 0.1 1.0
+material 0.0 0.5 0.5 0.5 0.5 0.5 100
+sphere
+groupend
+
+group
+move -2 -2 0
+scale 2 2 2
+#refraction 0.1 0.1 0.1 1.0
+material 0.0 0.8 0.0 0.5 0.5 0.5 100
+sphere
+groupend
+groupend
